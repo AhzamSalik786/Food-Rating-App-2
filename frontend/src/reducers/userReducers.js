@@ -45,9 +45,9 @@ export const userRegisterReducer = (state = {}, action) => {
 }
 
 export const userDetailReducer = (state = { user: {} }, action) => {
-  console.log('state ', state)
+  // console.log('state ', state)
 
-  console.log('action ', action.type)
+  // console.log('action ', action.type)
   switch (action.type) {
     case USER_DETAIL_REQUEST:
       return { ...state, loading: true }
@@ -62,9 +62,9 @@ export const userDetailReducer = (state = { user: {} }, action) => {
 }
 
 export const userUpdateProfileReducer = (state = {}, action) => {
-  console.log('state ', state)
+  // console.log('state ', state)
 
-  console.log('action ', action.type)
+  // console.log('action ', action.type)
   switch (action.type) {
     case USER_UPDATE_PROFILE_REQUEST:
       return { loading: true }

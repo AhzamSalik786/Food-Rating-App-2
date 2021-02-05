@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhzamSalik786/The-Food-Rating-App.git"
+    "url": "git+https://github.com/AhzamSalik786/The-Food-Rating-App-2.git"
     
   },
   "author": "Muhammad Ahzam Salik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AhzamSalik786/The-Food-Rating-App/issues"
+    "url": "https://github.com/AhzamSalik786/The-Food-Rating-App-2/issues"
   },
-  "homepage": "https://github.com/AhzamSalik786/The-Food-Rating-App#readme",
+  "homepage": "https://github.com/AhzamSalik786/The-Food-Rating-App-2#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
