@@ -53,7 +53,7 @@ const ProfileScreen = ({ location, history }) => {
   return (
     <div>
       <Row>
-        <Col md={3}>
+        <Col md={9}>
           <h2> User Profile </h2>
           {message && <Message variant='danger'> {message}</Message>}
 
@@ -83,7 +83,7 @@ const ProfileScreen = ({ location, history }) => {
             </Form.Group>
 
             <Form.Group controlId='password'>
-              <Form.Label>Password Address</Form.Label>
+              <Form.Label>Password</Form.Label>
               <Form.Control
                 type='password'
                 placeholder='Enter Password'
@@ -105,9 +105,9 @@ const ProfileScreen = ({ location, history }) => {
             </Button>
           </Form>
         </Col>
-        <Col md={9}>
+        {/* <Col md={9}>
           <h2>My Order</h2>
-        </Col>
+        </Col> */}
       </Row>
     </div>
   )

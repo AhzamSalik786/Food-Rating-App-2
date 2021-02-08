@@ -37,14 +37,12 @@ export const cartReducer = (
     // console.log('da', action.payload)
 
     case CART_SAVE_SHIPPING_ADDRESS:
-      console.log('save', action.payload)
       return {
         ...state,
         shippingAddress: action.payload,
       }
 
     case CART_SAVE_PAYMENT_METHOD:
-      console.log('save', action.payload)
       return {
         ...state,
         paymentMethod: action.payload,
